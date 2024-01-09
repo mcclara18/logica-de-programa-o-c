@@ -13,14 +13,14 @@ int main() {
     int num;
 
     
-    printf("Digite um númo: ");
+    printf("Digite um número: ");
     scanf("%d", &num);
 
     
     if (ver(num)) {
-        printf("%d é par.\n", num);
+        printf("%d Par.\n", num);
     } else {
-        printf("%d é ímpar.\n", num);
+        printf("%d Ímpar.\n", num);
     }
 
     return 0;
