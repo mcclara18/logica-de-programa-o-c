@@ -25,17 +25,17 @@ int main() {
 
     for (int bimestre = 1; bimestre <= 4; bimestre++) {
         printf("Bimestre %d:\n", bimestre);
-        printf("Nota da avaliação escrita: ");
+        printf("Nota da avaliação 1: ");
         scanf("%f", &n1);
-        printf("Nota da avaliação prática: ");
+        printf("Nota da avaliação 2: ");
         scanf("%f", &n2);
-        printf("Número total de atividades: ");
+        printf("Atividades: ");
         scanf("%d", &atv);
-        printf("Número de atividades realizadas: ");
+        printf("Atividades realizadas: ");
         scanf("%d", &atv2);
 
         float notas = calculo(n1, n2, atv, atv2);
-        printf("Nota final do bimestre %d: %.2f\n", bimestre, notas);
+        printf("Nota final %d: %.2f\n", bimestre, notas);
 
         float notaprova;
         printf("Nota da prova: ");
